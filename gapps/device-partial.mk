@@ -165,5 +165,6 @@ PRODUCT_PACKAGES+=\
 	Hangouts \
 	Phonesky \
 	PrebuiltGmsCore \
+	SetupWizard \
 	Velvet \
 	Wallet \
