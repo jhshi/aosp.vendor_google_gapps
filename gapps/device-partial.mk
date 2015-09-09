@@ -38,6 +38,8 @@ PRODUCT_COPY_FILES +=\
 	vendor/google/gapps/proprietary/system/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar:google \
 	vendor/google/gapps/proprietary/system/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar:google \
 	vendor/google/gapps/proprietary/system/framework/com.google.android.camera2.jar:system/framework/com.google.android.camera2.jar:google \
+	vendor/google/gapps/proprietary/system/app/Chrome/lib/arm/libchrome.so:system/app/Chrome/lib/arm/libchrome.so:google \
+	vendor/google/gapps/proprietary/system/app/Chrome/lib/arm/libchromium_android_linker.so:system/app/Chrome/lib/arm/libchromium_android_linker.so:google \
 	vendor/google/gapps/proprietary/system/app/Drive/lib/arm/libbitmap_parcel.so:system/app/Drive/lib/arm/libbitmap_parcel.so:google \
 	vendor/google/gapps/proprietary/system/app/Drive/lib/arm/libdocscanner_image.so:system/app/Drive/lib/arm/libdocscanner_image.so:google \
 	vendor/google/gapps/proprietary/system/app/Drive/lib/arm/libdocsimageutils.so:system/app/Drive/lib/arm/libdocsimageutils.so:google \
@@ -45,6 +47,18 @@ PRODUCT_COPY_FILES +=\
 	vendor/google/gapps/proprietary/system/app/Drive/lib/arm/libfoxit.so:system/app/Drive/lib/arm/libfoxit.so:google \
 	vendor/google/gapps/proprietary/system/app/Drive/lib/arm/librectifier.so:system/app/Drive/lib/arm/librectifier.so:google \
 	vendor/google/gapps/proprietary/system/app/Drive/lib/arm/libwebp_android.so:system/app/Drive/lib/arm/libwebp_android.so:google \
+	vendor/google/gapps/proprietary/system/app/EditorsDocs/lib/arm/libdocsimageutils.so:system/app/EditorsDocs/lib/arm/libdocsimageutils.so:google \
+	vendor/google/gapps/proprietary/system/app/EditorsDocs/lib/arm/libfileutils.so:system/app/EditorsDocs/lib/arm/libfileutils.so:google \
+	vendor/google/gapps/proprietary/system/app/EditorsDocs/lib/arm/libkix_ndk1.so:system/app/EditorsDocs/lib/arm/libkix_ndk1.so:google \
+	vendor/google/gapps/proprietary/system/app/EditorsDocs/lib/arm/libwebp_android.so:system/app/EditorsDocs/lib/arm/libwebp_android.so:google \
+	vendor/google/gapps/proprietary/system/app/EditorsSheets/lib/arm/libdocsimageutils.so:system/app/EditorsSheets/lib/arm/libdocsimageutils.so:google \
+	vendor/google/gapps/proprietary/system/app/EditorsSheets/lib/arm/libfileutils.so:system/app/EditorsSheets/lib/arm/libfileutils.so:google \
+	vendor/google/gapps/proprietary/system/app/EditorsSheets/lib/arm/libritz_ndk1.so:system/app/EditorsSheets/lib/arm/libritz_ndk1.so:google \
+	vendor/google/gapps/proprietary/system/app/EditorsSheets/lib/arm/libwebp_android.so:system/app/EditorsSheets/lib/arm/libwebp_android.so:google \
+	vendor/google/gapps/proprietary/system/app/EditorsSlides/lib/arm/libdocsimageutils.so:system/app/EditorsSlides/lib/arm/libdocsimageutils.so:google \
+	vendor/google/gapps/proprietary/system/app/EditorsSlides/lib/arm/libfileutils.so:system/app/EditorsSlides/lib/arm/libfileutils.so:google \
+	vendor/google/gapps/proprietary/system/app/EditorsSlides/lib/arm/libpunch_ndk1.so:system/app/EditorsSlides/lib/arm/libpunch_ndk1.so:google \
+	vendor/google/gapps/proprietary/system/app/EditorsSlides/lib/arm/libwebp_android.so:system/app/EditorsSlides/lib/arm/libwebp_android.so:google \
 	vendor/google/gapps/proprietary/system/app/GoogleCamera/lib/arm/libgcam.so:system/app/GoogleCamera/lib/arm/libgcam.so:google \
 	vendor/google/gapps/proprietary/system/app/GoogleCamera/lib/arm/libgcam_swig_jni.so:system/app/GoogleCamera/lib/arm/libgcam_swig_jni.so:google \
 	vendor/google/gapps/proprietary/system/app/GoogleCamera/lib/arm/libjni_jpegutil.so:system/app/GoogleCamera/lib/arm/libjni_jpegutil.so:google \
@@ -70,6 +84,13 @@ PRODUCT_COPY_FILES +=\
 	vendor/google/gapps/proprietary/system/app/Photos/lib/arm/libframesequence.so:system/app/Photos/lib/arm/libframesequence.so:google \
 	vendor/google/gapps/proprietary/system/app/Photos/lib/arm/libmoviemaker-jni.so:system/app/Photos/lib/arm/libmoviemaker-jni.so:google \
 	vendor/google/gapps/proprietary/system/app/PlayGames/lib/arm/libgames_rtmp_jni.so:system/app/PlayGames/lib/arm/libgames_rtmp_jni.so:google \
+	vendor/google/gapps/proprietary/system/app/PlusOne/lib/arm/libcrashreporterer.so:system/app/PlusOne/lib/arm/libcrashreporterer.so:google \
+	vendor/google/gapps/proprietary/system/app/PlusOne/lib/arm/libcronet.so:system/app/PlusOne/lib/arm/libcronet.so:google \
+	vendor/google/gapps/proprietary/system/app/PlusOne/lib/arm/libfilterframework_jni.so:system/app/PlusOne/lib/arm/libfilterframework_jni.so:google \
+	vendor/google/gapps/proprietary/system/app/PlusOne/lib/arm/libframesequence.so:system/app/PlusOne/lib/arm/libframesequence.so:google \
+	vendor/google/gapps/proprietary/system/app/PlusOne/lib/arm/libmoviemaker-jni.so:system/app/PlusOne/lib/arm/libmoviemaker-jni.so:google \
+	vendor/google/gapps/proprietary/system/app/PlusOne/lib/arm/libphotoeditor_native.so:system/app/PlusOne/lib/arm/libphotoeditor_native.so:google \
+	vendor/google/gapps/proprietary/system/app/PlusOne/lib/arm/libwebp_android.so:system/app/PlusOne/lib/arm/libwebp_android.so:google \
 	vendor/google/gapps/proprietary/system/priv-app/PrebuiltBugle/lib/arm/libframesequence.so:system/priv-app/PrebuiltBugle/lib/arm/libframesequence.so:google \
 	vendor/google/gapps/proprietary/system/priv-app/PrebuiltBugle/lib/arm/libgiftranscode.so:system/priv-app/PrebuiltBugle/lib/arm/libgiftranscode.so:google \
 	vendor/google/gapps/proprietary/system/app/Videos/lib/arm/libWVphoneAPI.so:system/app/Videos/lib/arm/libWVphoneAPI.so:google \
@@ -105,8 +126,12 @@ PRODUCT_COPY_FILES +=\
 PRODUCT_PACKAGES+=\
 	Books \
 	CalendarGooglePrebuilt \
+	Chrome \
 	CloudPrint2 \
 	Drive \
+	EditorsDocs \
+	EditorsSheets \
+	EditorsSlides \
 	GoogleCalendarSyncAdapter \
 	GoogleCamera \
 	GoogleContactsSyncAdapter \
@@ -120,6 +145,7 @@ PRODUCT_PACKAGES+=\
 	Newsstand \
 	Photos \
 	PlayGames \
+	PlusOne \
 	PrebuiltBugle \
 	PrebuiltExchange3Google \
 	PrebuiltGmail \
