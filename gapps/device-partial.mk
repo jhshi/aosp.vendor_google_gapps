@@ -47,18 +47,6 @@ PRODUCT_COPY_FILES +=\
 	vendor/google/gapps/proprietary/system/app/Drive/lib/arm/libfoxit.so:system/app/Drive/lib/arm/libfoxit.so:google \
 	vendor/google/gapps/proprietary/system/app/Drive/lib/arm/librectifier.so:system/app/Drive/lib/arm/librectifier.so:google \
 	vendor/google/gapps/proprietary/system/app/Drive/lib/arm/libwebp_android.so:system/app/Drive/lib/arm/libwebp_android.so:google \
-	vendor/google/gapps/proprietary/system/app/EditorsDocs/lib/arm/libdocsimageutils.so:system/app/EditorsDocs/lib/arm/libdocsimageutils.so:google \
-	vendor/google/gapps/proprietary/system/app/EditorsDocs/lib/arm/libfileutils.so:system/app/EditorsDocs/lib/arm/libfileutils.so:google \
-	vendor/google/gapps/proprietary/system/app/EditorsDocs/lib/arm/libkix_ndk1.so:system/app/EditorsDocs/lib/arm/libkix_ndk1.so:google \
-	vendor/google/gapps/proprietary/system/app/EditorsDocs/lib/arm/libwebp_android.so:system/app/EditorsDocs/lib/arm/libwebp_android.so:google \
-	vendor/google/gapps/proprietary/system/app/EditorsSheets/lib/arm/libdocsimageutils.so:system/app/EditorsSheets/lib/arm/libdocsimageutils.so:google \
-	vendor/google/gapps/proprietary/system/app/EditorsSheets/lib/arm/libfileutils.so:system/app/EditorsSheets/lib/arm/libfileutils.so:google \
-	vendor/google/gapps/proprietary/system/app/EditorsSheets/lib/arm/libritz_ndk1.so:system/app/EditorsSheets/lib/arm/libritz_ndk1.so:google \
-	vendor/google/gapps/proprietary/system/app/EditorsSheets/lib/arm/libwebp_android.so:system/app/EditorsSheets/lib/arm/libwebp_android.so:google \
-	vendor/google/gapps/proprietary/system/app/EditorsSlides/lib/arm/libdocsimageutils.so:system/app/EditorsSlides/lib/arm/libdocsimageutils.so:google \
-	vendor/google/gapps/proprietary/system/app/EditorsSlides/lib/arm/libfileutils.so:system/app/EditorsSlides/lib/arm/libfileutils.so:google \
-	vendor/google/gapps/proprietary/system/app/EditorsSlides/lib/arm/libpunch_ndk1.so:system/app/EditorsSlides/lib/arm/libpunch_ndk1.so:google \
-	vendor/google/gapps/proprietary/system/app/EditorsSlides/lib/arm/libwebp_android.so:system/app/EditorsSlides/lib/arm/libwebp_android.so:google \
 	vendor/google/gapps/proprietary/system/app/GoogleCamera/lib/arm/libgcam.so:system/app/GoogleCamera/lib/arm/libgcam.so:google \
 	vendor/google/gapps/proprietary/system/app/GoogleCamera/lib/arm/libgcam_swig_jni.so:system/app/GoogleCamera/lib/arm/libgcam_swig_jni.so:google \
 	vendor/google/gapps/proprietary/system/app/GoogleCamera/lib/arm/libjni_jpegutil.so:system/app/GoogleCamera/lib/arm/libjni_jpegutil.so:google \
@@ -71,7 +59,6 @@ PRODUCT_COPY_FILES +=\
 	vendor/google/gapps/proprietary/system/app/GoogleCamera/lib/arm/librsjni.so:system/app/GoogleCamera/lib/arm/librsjni.so:google \
 	vendor/google/gapps/proprietary/system/app/GoogleCamera/lib/arm/libRSSupport.so:system/app/GoogleCamera/lib/arm/libRSSupport.so:google \
 	vendor/google/gapps/proprietary/system/app/GoogleEars/lib/arm/libvorbisencoder.so:system/app/GoogleEars/lib/arm/libvorbisencoder.so:google \
-	vendor/google/gapps/proprietary/system/app/GoogleEarth/lib/arm/libearthmobile.so:system/app/GoogleEarth/lib/arm/libearthmobile.so:google \
 	vendor/google/gapps/proprietary/system/app/GoogleTTS/lib/arm/libpatts_engine_jni_api_ub.210304060.so:system/app/GoogleTTS/lib/arm/libpatts_engine_jni_api_ub.210304060.so:google \
 	vendor/google/gapps/proprietary/system/app/GoogleTTS/lib/arm/libspeexwrapper_ub.210304060.so:system/app/GoogleTTS/lib/arm/libspeexwrapper_ub.210304060.so:google \
 	vendor/google/gapps/proprietary/system/app/LatinImeGoogle/lib/arm/libjni_keyboarddecoder.so:system/app/LatinImeGoogle/lib/arm/libjni_keyboarddecoder.so:google \
@@ -129,14 +116,10 @@ PRODUCT_PACKAGES+=\
 	Chrome \
 	CloudPrint2 \
 	Drive \
-	EditorsDocs \
-	EditorsSheets \
-	EditorsSlides \
 	GoogleCalendarSyncAdapter \
 	GoogleCamera \
 	GoogleContactsSyncAdapter \
 	GoogleEars \
-	GoogleEarth \
 	GoogleHome \
 	GoogleTTS \
 	LatinImeGoogle \
